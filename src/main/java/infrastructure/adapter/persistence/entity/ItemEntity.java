@@ -9,8 +9,6 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import java.io.Serial;
-
 @Entity
 @Table(name = "item")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
